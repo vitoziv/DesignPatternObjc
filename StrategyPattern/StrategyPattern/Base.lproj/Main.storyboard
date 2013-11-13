@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kNH-Lh-CO8"/>
+                        <viewControllerLayoutGuide type="bottom" id="hBj-05-59D"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7yw-m3-dIQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cA9-S5-LAr">
+                                <rect key="frame" x="53" y="530" width="97" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="tintColor" red="1" green="0.7624982441" blue="0.083338529339999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="MallardDuck">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="duck:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JP3-MD-boa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8K7-Ts-jtF">
+                                <rect key="frame" x="170" y="489" width="109" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="tintColor" red="1" green="0.7624982441" blue="0.083338529339999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="RedheadDuck">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="duck:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="IE1-lw-qK8"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duck label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgU-2w-a3X">
+                                <rect key="frame" x="120" y="20" width="81" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mTD-PV-Xox">
+                                <rect key="frame" x="61" y="487" width="89" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="tintColor" red="1" green="0.7624982441" blue="0.083338529339999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="DecoyDuck">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" red="0.95294123890000004" green="0.76470595600000002" blue="0.094117656349999995" alpha="1" colorSpace="deviceRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="duck:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="xB3-j0-WgW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wXT-QF-yqt">
+                                <rect key="frame" x="170" y="530" width="97" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="tintColor" red="1" green="0.7624982441" blue="0.083338529339999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="RubberDuck">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="duck:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="cex-Zr-hhL"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fly behavior" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ACP-h1-oof">
+                                <rect key="frame" x="113" y="49" width="94" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quack behavior" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WyA-xx-i77">
+                                <rect key="frame" x="100" y="78" width="121" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HQA-EY-CBg">
+                                <rect key="frame" x="72" y="373" width="78" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="FlyNoWay">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="flyBehavior:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Lzk-bG-fbt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7lg-CA-MGY">
+                                <rect key="frame" x="45" y="414" width="105" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="FlyWithWings">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="flyBehavior:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jlN-sK-Egu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cts-IQ-KCQ">
+                                <rect key="frame" x="170" y="334" width="50" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Quack">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="quackBehavior:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2zU-Jr-DJf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D5o-Fr-8Vr">
+                                <rect key="frame" x="170" y="375" width="59" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Squeak">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="quackBehavior:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ViQ-VD-h47"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uyw-nk-Wr4">
+                                <rect key="frame" x="170" y="416" width="89" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="MuteQuack">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="quackBehavior:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="h4w-9G-GFY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ngs-HP-MRJ">
+                                <rect key="frame" x="115" y="135" width="90" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Duck show!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="duckShow:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="OOT-BA-V2Q"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="wXT-QF-yqt" secondAttribute="trailing" constant="53" id="3gF-7X-PM9"/>
+                            <constraint firstAttribute="centerX" secondItem="cgU-2w-a3X" secondAttribute="centerX" id="6pJ-Dq-R1t"/>
+                            <constraint firstItem="mTD-PV-Xox" firstAttribute="top" secondItem="7lg-CA-MGY" secondAttribute="bottom" constant="40" id="8U9-D5-ExA"/>
+                            <constraint firstItem="uyw-nk-Wr4" firstAttribute="leading" secondItem="8K7-Ts-jtF" secondAttribute="leading" id="8jc-j1-58A"/>
+                            <constraint firstAttribute="bottom" secondItem="wXT-QF-yqt" secondAttribute="bottom" constant="5" id="Cv1-5r-QIa"/>
+                            <constraint firstItem="mTD-PV-Xox" firstAttribute="trailing" secondItem="7lg-CA-MGY" secondAttribute="trailing" id="D3w-eC-kPa"/>
+                            <constraint firstItem="WyA-xx-i77" firstAttribute="top" secondItem="ACP-h1-oof" secondAttribute="bottom" constant="8" id="DyF-F7-f8S"/>
+                            <constraint firstItem="uyw-nk-Wr4" firstAttribute="leading" secondItem="cts-IQ-KCQ" secondAttribute="leading" id="J6f-hy-nFx"/>
+                            <constraint firstItem="wXT-QF-yqt" firstAttribute="top" secondItem="8K7-Ts-jtF" secondAttribute="bottom" constant="8" id="K6G-aV-hDH"/>
+                            <constraint firstItem="cA9-S5-LAr" firstAttribute="leading" secondItem="7yw-m3-dIQ" secondAttribute="leading" constant="53" id="Kz9-Qf-cjx"/>
+                            <constraint firstItem="ACP-h1-oof" firstAttribute="top" secondItem="cgU-2w-a3X" secondAttribute="bottom" constant="8" id="NDZ-7m-jUB"/>
+                            <constraint firstAttribute="centerX" secondItem="ACP-h1-oof" secondAttribute="centerX" id="Okj-dR-FIF"/>
+                            <constraint firstAttribute="centerX" secondItem="ngs-HP-MRJ" secondAttribute="centerX" id="Rj0-Mh-LBI"/>
+                            <constraint firstItem="mTD-PV-Xox" firstAttribute="trailing" secondItem="HQA-EY-CBg" secondAttribute="trailing" id="Tap-xd-mxL"/>
+                            <constraint firstItem="cgU-2w-a3X" firstAttribute="top" secondItem="7yw-m3-dIQ" secondAttribute="top" constant="20" id="W3l-Lk-YVQ"/>
+                            <constraint firstItem="uyw-nk-Wr4" firstAttribute="top" secondItem="D5o-Fr-8Vr" secondAttribute="bottom" constant="8" id="Yzs-iq-mW4"/>
+                            <constraint firstAttribute="centerX" secondItem="WyA-xx-i77" secondAttribute="centerX" id="Zks-19-Xn3"/>
+                            <constraint firstItem="mTD-PV-Xox" firstAttribute="trailing" secondItem="cA9-S5-LAr" secondAttribute="trailing" id="agG-nA-AWV"/>
+                            <constraint firstItem="7lg-CA-MGY" firstAttribute="top" secondItem="HQA-EY-CBg" secondAttribute="bottom" constant="8" id="ghF-ye-gts"/>
+                            <constraint firstAttribute="bottom" secondItem="cA9-S5-LAr" secondAttribute="bottom" constant="5" id="grb-d7-sF0"/>
+                            <constraint firstItem="D5o-Fr-8Vr" firstAttribute="top" secondItem="cts-IQ-KCQ" secondAttribute="bottom" constant="8" id="ihw-e6-h3E"/>
+                            <constraint firstItem="uyw-nk-Wr4" firstAttribute="leading" secondItem="D5o-Fr-8Vr" secondAttribute="leading" id="mjh-Ch-kAg"/>
+                            <constraint firstItem="cA9-S5-LAr" firstAttribute="top" secondItem="mTD-PV-Xox" secondAttribute="bottom" constant="10" id="ng3-GN-W3h"/>
+                            <constraint firstItem="8K7-Ts-jtF" firstAttribute="top" secondItem="uyw-nk-Wr4" secondAttribute="bottom" constant="40" id="rQK-o8-18D"/>
+                            <constraint firstItem="ngs-HP-MRJ" firstAttribute="top" secondItem="WyA-xx-i77" secondAttribute="bottom" constant="36" id="vpl-3g-rAz"/>
+                            <constraint firstItem="wXT-QF-yqt" firstAttribute="leading" secondItem="8K7-Ts-jtF" secondAttribute="leading" id="wRd-0P-OVR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="duckLabel" destination="cgU-2w-a3X" id="cv1-jp-TQ2"/>
+                        <outlet property="flyBehaviorLabel" destination="ACP-h1-oof" id="Axe-9n-o5Y"/>
+                        <outlet property="quackBehaviorLabel" destination="WyA-xx-i77" id="pLG-WP-07q"/>
+                        <outletCollection property="flyButtons" destination="HQA-EY-CBg" id="lwb-NS-m9s"/>
+                        <outletCollection property="flyButtons" destination="7lg-CA-MGY" id="2tO-jA-USR"/>
+                        <outletCollection property="quackButtons" destination="cts-IQ-KCQ" id="C5F-gW-rhk"/>
+                        <outletCollection property="quackButtons" destination="D5o-Fr-8Vr" id="bKD-RJ-S7O"/>
+                        <outletCollection property="quackButtons" destination="uyw-nk-Wr4" id="VXa-em-bzg"/>
+                        <outletCollection property="duckButtons" destination="mTD-PV-Xox" id="ceZ-Ah-N7j"/>
+                        <outletCollection property="duckButtons" destination="8K7-Ts-jtF" id="PYK-i0-cfk"/>
+                        <outletCollection property="duckButtons" destination="cA9-S5-LAr" id="fdU-Qc-cQn"/>
+                        <outletCollection property="duckButtons" destination="wXT-QF-yqt" id="ZxV-oB-LCJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
