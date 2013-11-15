@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FC25BD018359DF800AC3D67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC25BCF18359DF800AC3D67 /* Foundation.framework */; };
+		5FC25BD218359DF800AC3D67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC25BD118359DF800AC3D67 /* CoreGraphics.framework */; };
+		5FC25BD418359DF800AC3D67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC25BD318359DF800AC3D67 /* UIKit.framework */; };
+		5FC25BDA18359DF800AC3D67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FC25BD818359DF800AC3D67 /* InfoPlist.strings */; };
+		5FC25BDC18359DF800AC3D67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25BDB18359DF800AC3D67 /* main.m */; };
+		5FC25BE018359DF800AC3D67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25BDF18359DF800AC3D67 /* AppDelegate.m */; };
+		5FC25BE318359DF800AC3D67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC25BE118359DF800AC3D67 /* Main.storyboard */; };
+		5FC25BE618359DF800AC3D67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25BE518359DF800AC3D67 /* ViewController.m */; };
+		5FC25BE818359DF800AC3D67 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC25BE718359DF800AC3D67 /* Images.xcassets */; };
+		5FC25BEF18359DF800AC3D67 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC25BEE18359DF800AC3D67 /* XCTest.framework */; };
+		5FC25BF018359DF800AC3D67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC25BCF18359DF800AC3D67 /* Foundation.framework */; };
+		5FC25BF118359DF800AC3D67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC25BD318359DF800AC3D67 /* UIKit.framework */; };
+		5FC25BF918359DF800AC3D67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FC25BF718359DF800AC3D67 /* InfoPlist.strings */; };
+		5FC25BFB18359DF800AC3D67 /* DecoratorPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25BFA18359DF800AC3D67 /* DecoratorPatternTests.m */; };
+		5FC25C0A18359F3A00AC3D67 /* HouseBlend.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25C0918359F3A00AC3D67 /* HouseBlend.m */; };
+		5FC25C0D18359FBB00AC3D67 /* DarkRoast.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25C0C18359FBB00AC3D67 /* DarkRoast.m */; };
+		5FC25C101835A01200AC3D67 /* Espresso.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25C0F1835A01200AC3D67 /* Espresso.m */; };
+		5FC25C131835A02D00AC3D67 /* Decaf.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25C121835A02D00AC3D67 /* Decaf.m */; };
+		5FC25C161835A05400AC3D67 /* CondimentDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25C151835A05400AC3D67 /* CondimentDecorator.m */; };
+		5FC25C191835A30200AC3D67 /* Mocha.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25C181835A30200AC3D67 /* Mocha.m */; };
+		5FC25C1C1835A4E000AC3D67 /* Milk.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25C1B1835A4E000AC3D67 /* Milk.m */; };
+		5FC25C1F1835A53B00AC3D67 /* Soy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25C1E1835A53B00AC3D67 /* Soy.m */; };
+		5FC25C221835A56500AC3D67 /* Whip.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25C211835A56500AC3D67 /* Whip.m */; };
+		5FC25C851836E98800AC3D67 /* Beverage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25C841836E98800AC3D67 /* Beverage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FC25BF218359DF800AC3D67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FC25BC418359DF800AC3D67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FC25BCB18359DF800AC3D67;
+			remoteInfo = DecoratorPattern;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FC25BCC18359DF800AC3D67 /* DecoratorPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecoratorPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC25BCF18359DF800AC3D67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5FC25BD118359DF800AC3D67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5FC25BD318359DF800AC3D67 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5FC25BD718359DF800AC3D67 /* DecoratorPattern-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DecoratorPattern-Info.plist"; sourceTree = "<group>"; };
+		5FC25BD918359DF800AC3D67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5FC25BDB18359DF800AC3D67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FC25BDD18359DF800AC3D67 /* DecoratorPattern-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DecoratorPattern-Prefix.pch"; sourceTree = "<group>"; };
+		5FC25BDE18359DF800AC3D67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5FC25BDF18359DF800AC3D67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5FC25BE218359DF800AC3D67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FC25BE418359DF800AC3D67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5FC25BE518359DF800AC3D67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5FC25BE718359DF800AC3D67 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5FC25BED18359DF800AC3D67 /* DecoratorPatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecoratorPatternTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC25BEE18359DF800AC3D67 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5FC25BF618359DF800AC3D67 /* DecoratorPatternTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DecoratorPatternTests-Info.plist"; sourceTree = "<group>"; };
+		5FC25BF818359DF800AC3D67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5FC25BFA18359DF800AC3D67 /* DecoratorPatternTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecoratorPatternTests.m; sourceTree = "<group>"; };
+		5FC25C0818359F3A00AC3D67 /* HouseBlend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseBlend.h; sourceTree = "<group>"; };
+		5FC25C0918359F3A00AC3D67 /* HouseBlend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseBlend.m; sourceTree = "<group>"; };
+		5FC25C0B18359FBB00AC3D67 /* DarkRoast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DarkRoast.h; sourceTree = "<group>"; };
+		5FC25C0C18359FBB00AC3D67 /* DarkRoast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DarkRoast.m; sourceTree = "<group>"; };
+		5FC25C0E1835A01200AC3D67 /* Espresso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Espresso.h; sourceTree = "<group>"; };
+		5FC25C0F1835A01200AC3D67 /* Espresso.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Espresso.m; sourceTree = "<group>"; };
+		5FC25C111835A02D00AC3D67 /* Decaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decaf.h; sourceTree = "<group>"; };
+		5FC25C121835A02D00AC3D67 /* Decaf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decaf.m; sourceTree = "<group>"; };
+		5FC25C141835A05400AC3D67 /* CondimentDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CondimentDecorator.h; sourceTree = "<group>"; };
+		5FC25C151835A05400AC3D67 /* CondimentDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CondimentDecorator.m; sourceTree = "<group>"; };
+		5FC25C171835A30200AC3D67 /* Mocha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mocha.h; sourceTree = "<group>"; };
+		5FC25C181835A30200AC3D67 /* Mocha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mocha.m; sourceTree = "<group>"; };
+		5FC25C1A1835A4E000AC3D67 /* Milk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Milk.h; sourceTree = "<group>"; };
+		5FC25C1B1835A4E000AC3D67 /* Milk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Milk.m; sourceTree = "<group>"; };
+		5FC25C1D1835A53B00AC3D67 /* Soy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Soy.h; sourceTree = "<group>"; };
+		5FC25C1E1835A53B00AC3D67 /* Soy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Soy.m; sourceTree = "<group>"; };
+		5FC25C201835A56500AC3D67 /* Whip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Whip.h; sourceTree = "<group>"; };
+		5FC25C211835A56500AC3D67 /* Whip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Whip.m; sourceTree = "<group>"; };
+		5FC25C831836E98800AC3D67 /* Beverage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beverage.h; sourceTree = "<group>"; };
+		5FC25C841836E98800AC3D67 /* Beverage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beverage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FC25BC918359DF800AC3D67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC25BD218359DF800AC3D67 /* CoreGraphics.framework in Frameworks */,
+				5FC25BD418359DF800AC3D67 /* UIKit.framework in Frameworks */,
+				5FC25BD018359DF800AC3D67 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC25BEA18359DF800AC3D67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC25BEF18359DF800AC3D67 /* XCTest.framework in Frameworks */,
+				5FC25BF118359DF800AC3D67 /* UIKit.framework in Frameworks */,
+				5FC25BF018359DF800AC3D67 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FC25BC318359DF800AC3D67 = {
+			isa = PBXGroup;
+			children = (
+				5FC25BD518359DF800AC3D67 /* DecoratorPattern */,
+				5FC25BF418359DF800AC3D67 /* DecoratorPatternTests */,
+				5FC25BCE18359DF800AC3D67 /* Frameworks */,
+				5FC25BCD18359DF800AC3D67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FC25BCD18359DF800AC3D67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FC25BCC18359DF800AC3D67 /* DecoratorPattern.app */,
+				5FC25BED18359DF800AC3D67 /* DecoratorPatternTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FC25BCE18359DF800AC3D67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FC25BCF18359DF800AC3D67 /* Foundation.framework */,
+				5FC25BD118359DF800AC3D67 /* CoreGraphics.framework */,
+				5FC25BD318359DF800AC3D67 /* UIKit.framework */,
+				5FC25BEE18359DF800AC3D67 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FC25BD518359DF800AC3D67 /* DecoratorPattern */ = {
+			isa = PBXGroup;
+			children = (
+				5FC25C0418359DFD00AC3D67 /* Models */,
+				5FC25BDE18359DF800AC3D67 /* AppDelegate.h */,
+				5FC25BDF18359DF800AC3D67 /* AppDelegate.m */,
+				5FC25BE118359DF800AC3D67 /* Main.storyboard */,
+				5FC25BE418359DF800AC3D67 /* ViewController.h */,
+				5FC25BE518359DF800AC3D67 /* ViewController.m */,
+				5FC25BE718359DF800AC3D67 /* Images.xcassets */,
+				5FC25BD618359DF800AC3D67 /* Supporting Files */,
+			);
+			path = DecoratorPattern;
+			sourceTree = "<group>";
+		};
+		5FC25BD618359DF800AC3D67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FC25BD718359DF800AC3D67 /* DecoratorPattern-Info.plist */,
+				5FC25BD818359DF800AC3D67 /* InfoPlist.strings */,
+				5FC25BDB18359DF800AC3D67 /* main.m */,
+				5FC25BDD18359DF800AC3D67 /* DecoratorPattern-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FC25BF418359DF800AC3D67 /* DecoratorPatternTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FC25BFA18359DF800AC3D67 /* DecoratorPatternTests.m */,
+				5FC25BF518359DF800AC3D67 /* Supporting Files */,
+			);
+			path = DecoratorPatternTests;
+			sourceTree = "<group>";
+		};
+		5FC25BF518359DF800AC3D67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FC25BF618359DF800AC3D67 /* DecoratorPatternTests-Info.plist */,
+				5FC25BF718359DF800AC3D67 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FC25C0418359DFD00AC3D67 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5FC25C831836E98800AC3D67 /* Beverage.h */,
+				5FC25C841836E98800AC3D67 /* Beverage.m */,
+				5FC25C0818359F3A00AC3D67 /* HouseBlend.h */,
+				5FC25C0918359F3A00AC3D67 /* HouseBlend.m */,
+				5FC25C0B18359FBB00AC3D67 /* DarkRoast.h */,
+				5FC25C0C18359FBB00AC3D67 /* DarkRoast.m */,
+				5FC25C0E1835A01200AC3D67 /* Espresso.h */,
+				5FC25C0F1835A01200AC3D67 /* Espresso.m */,
+				5FC25C111835A02D00AC3D67 /* Decaf.h */,
+				5FC25C121835A02D00AC3D67 /* Decaf.m */,
+				5FC25C141835A05400AC3D67 /* CondimentDecorator.h */,
+				5FC25C151835A05400AC3D67 /* CondimentDecorator.m */,
+				5FC25C171835A30200AC3D67 /* Mocha.h */,
+				5FC25C181835A30200AC3D67 /* Mocha.m */,
+				5FC25C1A1835A4E000AC3D67 /* Milk.h */,
+				5FC25C1B1835A4E000AC3D67 /* Milk.m */,
+				5FC25C1D1835A53B00AC3D67 /* Soy.h */,
+				5FC25C1E1835A53B00AC3D67 /* Soy.m */,
+				5FC25C201835A56500AC3D67 /* Whip.h */,
+				5FC25C211835A56500AC3D67 /* Whip.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FC25BCB18359DF800AC3D67 /* DecoratorPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FC25BFE18359DF800AC3D67 /* Build configuration list for PBXNativeTarget "DecoratorPattern" */;
+			buildPhases = (
+				5FC25BC818359DF800AC3D67 /* Sources */,
+				5FC25BC918359DF800AC3D67 /* Frameworks */,
+				5FC25BCA18359DF800AC3D67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DecoratorPattern;
+			productName = DecoratorPattern;
+			productReference = 5FC25BCC18359DF800AC3D67 /* DecoratorPattern.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FC25BEC18359DF800AC3D67 /* DecoratorPatternTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FC25C0118359DF800AC3D67 /* Build configuration list for PBXNativeTarget "DecoratorPatternTests" */;
+			buildPhases = (
+				5FC25BE918359DF800AC3D67 /* Sources */,
+				5FC25BEA18359DF800AC3D67 /* Frameworks */,
+				5FC25BEB18359DF800AC3D67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FC25BF318359DF800AC3D67 /* PBXTargetDependency */,
+			);
+			name = DecoratorPatternTests;
+			productName = DecoratorPatternTests;
+			productReference = 5FC25BED18359DF800AC3D67 /* DecoratorPatternTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FC25BC418359DF800AC3D67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Vito;
+				TargetAttributes = {
+					5FC25BEC18359DF800AC3D67 = {
+						TestTargetID = 5FC25BCB18359DF800AC3D67;
+					};
+				};
+			};
+			buildConfigurationList = 5FC25BC718359DF800AC3D67 /* Build configuration list for PBXProject "DecoratorPattern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FC25BC318359DF800AC3D67;
+			productRefGroup = 5FC25BCD18359DF800AC3D67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FC25BCB18359DF800AC3D67 /* DecoratorPattern */,
+				5FC25BEC18359DF800AC3D67 /* DecoratorPatternTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FC25BCA18359DF800AC3D67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC25BE818359DF800AC3D67 /* Images.xcassets in Resources */,
+				5FC25BDA18359DF800AC3D67 /* InfoPlist.strings in Resources */,
+				5FC25BE318359DF800AC3D67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC25BEB18359DF800AC3D67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC25BF918359DF800AC3D67 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FC25BC818359DF800AC3D67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC25C1F1835A53B00AC3D67 /* Soy.m in Sources */,
+				5FC25C1C1835A4E000AC3D67 /* Milk.m in Sources */,
+				5FC25C0A18359F3A00AC3D67 /* HouseBlend.m in Sources */,
+				5FC25C851836E98800AC3D67 /* Beverage.m in Sources */,
+				5FC25C101835A01200AC3D67 /* Espresso.m in Sources */,
+				5FC25BE618359DF800AC3D67 /* ViewController.m in Sources */,
+				5FC25C191835A30200AC3D67 /* Mocha.m in Sources */,
+				5FC25C161835A05400AC3D67 /* CondimentDecorator.m in Sources */,
+				5FC25C131835A02D00AC3D67 /* Decaf.m in Sources */,
+				5FC25BE018359DF800AC3D67 /* AppDelegate.m in Sources */,
+				5FC25C221835A56500AC3D67 /* Whip.m in Sources */,
+				5FC25BDC18359DF800AC3D67 /* main.m in Sources */,
+				5FC25C0D18359FBB00AC3D67 /* DarkRoast.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC25BE918359DF800AC3D67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC25BFB18359DF800AC3D67 /* DecoratorPatternTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FC25BF318359DF800AC3D67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FC25BCB18359DF800AC3D67 /* DecoratorPattern */;
+			targetProxy = 5FC25BF218359DF800AC3D67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FC25BD818359DF800AC3D67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FC25BD918359DF800AC3D67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5FC25BE118359DF800AC3D67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FC25BE218359DF800AC3D67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FC25BF718359DF800AC3D67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FC25BF818359DF800AC3D67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FC25BFC18359DF800AC3D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5FC25BFD18359DF800AC3D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FC25BFF18359DF800AC3D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DecoratorPattern/DecoratorPattern-Prefix.pch";
+				INFOPLIST_FILE = "DecoratorPattern/DecoratorPattern-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5FC25C0018359DF800AC3D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DecoratorPattern/DecoratorPattern-Prefix.pch";
+				INFOPLIST_FILE = "DecoratorPattern/DecoratorPattern-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5FC25C0218359DF800AC3D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DecoratorPattern.app/DecoratorPattern";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DecoratorPattern/DecoratorPattern-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DecoratorPatternTests/DecoratorPatternTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5FC25C0318359DF800AC3D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DecoratorPattern.app/DecoratorPattern";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DecoratorPattern/DecoratorPattern-Prefix.pch";
+				INFOPLIST_FILE = "DecoratorPatternTests/DecoratorPatternTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FC25BC718359DF800AC3D67 /* Build configuration list for PBXProject "DecoratorPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FC25BFC18359DF800AC3D67 /* Debug */,
+				5FC25BFD18359DF800AC3D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FC25BFE18359DF800AC3D67 /* Build configuration list for PBXNativeTarget "DecoratorPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FC25BFF18359DF800AC3D67 /* Debug */,
+				5FC25C0018359DF800AC3D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FC25C0118359DF800AC3D67 /* Build configuration list for PBXNativeTarget "DecoratorPatternTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FC25C0218359DF800AC3D67 /* Debug */,
+				5FC25C0318359DF800AC3D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FC25BC418359DF800AC3D67 /* Project object */;
+}
